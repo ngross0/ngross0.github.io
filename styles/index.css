@@ -5,8 +5,8 @@
 
 body
 {
-	font-family: fantasy;
-	color: rgb(119, 117, 117) ;
+	font-family: Arial;
+	color: rgb(138, 138, 138);
 	background-color: rgb(7, 48, 7);
 	margin-left: 75px;
 	margin-right: 75px;
@@ -16,14 +16,14 @@ body
 header, footer
 {
 	text-align: center;
-	color: rgb(119, 117, 117);
+	color: rgb(138, 138, 138);
 	font-weight: bold;
 }
 
 h1, h2, h3
 {
-	color: rgb(119, 117, 117);
-	font-family: fantasy;
+	color: rgb(138, 138, 138);
+	font-family: Arial;
 	text-align: center;
 }
 
@@ -36,7 +36,7 @@ h3
 a
 {
 	text-decoration: none;
-	color: rgb(119, 117, 117);
+	color: rgb(138, 138, 138);
 }
 
 a:hover
@@ -58,5 +58,5 @@ figcaption
 nav
 {
 	text-align: center;
-    color: rgb(119, 117, 117);
+    color: rgb(138, 138, 138);
 }
