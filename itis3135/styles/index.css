@@ -1,0 +1,29 @@
+body {
+	font-family: Arial;
+	color: rgb(160, 160, 160);
+	background-color: rgb(5, 36, 5);
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+header, footer {
+	text-align: center;
+	color: rgb(160, 160, 160);
+	font-weight: bold;
+}
+
+h1 {
+	color: rgb(160, 160, 160);
+	font-family: Arial;
+	text-align: center;
+}
+
+nav {
+	text-align: center;
+    color: rgb(160, 160, 160);
+}
+
+a {
+	text-decoration: none;
+	color: rgb(160, 160, 160);
+}
