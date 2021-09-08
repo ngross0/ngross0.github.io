@@ -54,9 +54,9 @@ table {
 }
 
 .complex tr:nth-child(odd) {
-    background-color: #BAAC3E;
+    background-color: #9fe2bf;
 }
 
 .complex tr:nth-child(even) {
-    background-color: #9fe2bf;
+    background-color: #BAAC3E;
 }
