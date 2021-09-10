@@ -19,6 +19,47 @@
              || 
             <a href="itis3135/index.html">ITIS 3135</a>
         </nav>
+        <main>
+            <h2>Newsletter</h2>
+            <p>Are you interested in receiving our newsletter for updates, savings, and new products? If so, fill out the below form!</p>
+            <form action="#">
+                <label for="firstname">First name: </label>
+                <input type="text" id="firstname" name="firstname" required placeholder="First name" class="inp" size="25"><br>
+                <label for="lastname">Last name: </label>
+                <input type="text" id="lastname" name="lastname" required placeholder="Last name" class="inp" size="25"><br>
+                <label for="email">E-Mail: </label>
+                <input type="email" id="email" name="email" required placeholder="E-Mail Address" class="inp" size="45"><br><br>
+
+                <p>Which announcements are you most interested in hearing about?</p>
+                <input type="checkbox" id="discounts" name="discounts" value="Discounts" required class="check">
+                <label for="discounts" class="check">Discounts and Coupons</label><br>
+                <input type="checkbox" id="products" name="products" value="Products" class="check">
+                <label for="products" class="check">New Products</label><br>
+                <input type="checkbox" id="employment" name="employment" value="Employment" class="check">
+                <label for="employment" class="check">Employment Opportunities</label><br><br>
+
+                <p>Would you like to receive our daily, weekly, or monthly newsletter?</p>
+                <input type="radio" id="daily" name="daily" value="Daily" class="radio">
+                <label for="daily" class="radio">Daily</label><br>
+                <input type="radio" id="weekly" name="weekly" value="Weekly" class="radio">
+                <label for="weekly" class="radio">Weekly</label><br>
+                <input type="radio" id="monthly" name="monthly" value="Monthly" class="radio">
+                <label for="monthly" class="radio">Monthly</label><br><br>
+
+                <label for="donation">If you would like, please select a donation tier! All values displayed are in USD. Please note this is NOT required to subscribe.</label><br>
+                <select name="donation" id="donation" class="selector">
+                    <option value="no" class="selector">No donation</option>
+                    <option value="$1" class="selector">$1/month</option>
+                    <option value="$5" class="selector">$5/month</option>
+                    <option value="$10" class="selector">$10/month</option>
+                    <option value="$15" class="selector">$15/month</option>
+                    <option value="$20" class="selector">$20/month</option>
+                    <option value="$25" class="selector">$25/month</option>
+                </select><br><br>
+
+                <input type="submit" name="submit" id="submit" value="Submit" class="submit-button">
+            </form>
+        </main>
         <footer>
             <nav>
                 <a href="http://webpages.uncc.edu/ngross3/" target="_blank">UNCC Page</a>
