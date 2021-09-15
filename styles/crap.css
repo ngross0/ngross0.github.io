@@ -1,0 +1,73 @@
+
+/* got this from coolors.co - please improve!
+ https://coolors.co/b5d6b2-53131e-5a464c-fffacc-ffefbd
+*/
+
+body
+{
+	font-family: Arial;
+	color: rgb(160, 160, 160);
+	background-color: rgb(5, 36, 5);
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+
+header, footer
+{
+	text-align: center;
+	color: rgb(160, 160, 160);
+	font-weight: bold;
+}
+
+h1, h2, h3
+{
+	color: rgb(160, 160, 160);
+	font-family: Arial;
+	text-align: center;
+}
+
+h3
+{
+	font-size: 200%;
+	line-height: 0px;
+}
+
+a
+{
+	text-decoration: none;
+	color: rgb(160, 160, 160);
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+nav
+{
+	text-align: center;
+    color: rgb(160, 160, 160);
+}
+
+.container {
+    display: flex;
+}
+
+.left {
+    flex: 50%;
+    border-color: rgb(160, 160, 160);
+    border: 5px 5px 5px 5px;
+    border-style: groove;
+}
+
+.right {
+    flex: 50%;
+    border-color: rgb(160, 160, 160);
+    border: 5px 5px 5px 5px;
+    border-style: groove;
+}
+
+p {
+    text-align: center;
+}
