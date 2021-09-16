@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<style>
+    .vertical {
+        font-family: Papyrus, fantasy;
+        text-align: right;
+        writing-mode: vertical-lr;
+        text-orientation: mixed;
+    }
+
+    .diagonal {
+        transform: rotate(45deg);
+    }
+
+    .container {
+        display: flex;
+    }
+
+    .left {
+        flex: 50%;
+    }
+
+    #right {
+        flex: 50%;
+    }
+
+    .right-container {
+        display: flex;
+    }
+
+    .internal-left {
+        flex: 50%;
+    }
+
+    .internal-right {
+        flex: 50%;
+    }
+
+    .left-head {
+        text-align: left;
+        margin-right: 250px;
+    }
+</style>
+<html>
+    <div class="container">
+        <div class="left">
+            <img src="catssittingintheroadbecausewhynotuseanimageofcatsbecausetheyarethebestanimal" width=400px height=400px>
+            <h4 style="font-family: Comic Sans MS, Comic Sans, cursive">Have you ever eaten just, a really big taco?</h4>
+        </div>
+        <div class="right-container" id="right">
+            <div class="internal-left">
+                <p class="vertical"> Man don't you just love computers I mean, they're just awesome but the only thing better than computers is Comic Sans.</p>
+            </div>
+            <div class="internal-right">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <p class="diagonal"><u>Although honestly, combining Comic Sans with more esoteric fonts is pretty fun.</u></p>
+                <h2 class="left-head">I still don't like JavaScript.</h2>
+                <h1 class="left-head">And truth be told, Python sucks too.</h1>
+            </div>
+        </div>
+    </div>
+</html>
