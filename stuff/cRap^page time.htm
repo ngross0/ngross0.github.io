@@ -5,18 +5,27 @@
         text-align: right;
         writing-mode: vertical-lr;
         text-orientation: mixed;
+        background-color: yellow;
     }
 
     .diagonal {
         transform: rotate(45deg);
+        background-color: pink;
     }
 
     .container {
         display: flex;
+        margin-left: 17px;
+        margin-right: 71px;
+        margin-bottom: 14px;
+        margin-top: 42px;
     }
 
     .left {
         flex: 50%;
+        border: 0px 0px 0px 17px;
+        border-color: turquoise;
+        border-style: inset;
     }
 
     #right {
@@ -25,6 +34,12 @@
 
     .right-container {
         display: flex;
+        border-color:yellowgreen;
+        border: 5px 15px 7px 3px;
+        border-right-style: groove;
+        border-left-style: dotted;
+        border-top-style: dashed;
+        border-bottom-style: ridge;
     }
 
     .internal-left {
@@ -38,17 +53,40 @@
     .left-head {
         text-align: left;
         margin-right: 250px;
+        font-family: 'Comic Papyrus Regular', 'Times New Roman';
+        background-color: purple;
+        margin-bottom: 46px;
+    }
+    
+    .center {
+        text-align: center;
     }
 </style>
 <html>
     <div class="container">
         <div class="left">
             <img src="catssittingintheroadbecausewhynotuseanimageofcatsbecausetheyarethebestanimal" width=400px height=400px>
-            <h4 style="font-family: Comic Sans MS, Comic Sans, cursive">Have you ever eaten just, a really big taco?</h4>
+            <h4 style="font-family: Comic Sans MS, Comic Sans, cursive">Have you ever eaten just<a href="https://isitchristmas.com">, a</a> really big taco?</h4>
+            <h1 style="font-family:-apple-system" style="font-size: 54px">If you haven't, I really must recommend it.</h1>
+            <p class="center">Now THIS is podracing!</p>
+            <ul class="center"><p style="font-size: 13.4px">Top 5 Jedi</p>
+                <li>Obi-Wan Kenobi</li>
+                <li>Qui-Gon Jinn</li>
+                <li>Aayla Secura</li>
+                <li>Revan</li>
+                <li>Jedi Bob</li>
+            </ul>
+            <ol class="center"><p style="font-size: 47px">Top 5 Sith</p>
+                <li>Darth Revan</li>
+                <li><u>Jar-Jar Binks</u></li>
+                <li>Darth Malgus</li>
+                <li>Darth Vader</li>
+                <li>Darth Talon</li>
+            </ol>
         </div>
         <div class="right-container" id="right">
             <div class="internal-left">
-                <p class="vertical"> Man don't you just love computers I mean, they're just awesome but the only thing better than computers is Comic Sans.</p>
+                <p class="vertical">Man don't you just love computers I mean, they're just awesome but the only thing better than computers is Comic Sans.</p>
             </div>
             <div class="internal-right">
                 <br>
@@ -59,10 +97,11 @@
                 <br>
                 <br>
                 <br>
-                <p class="diagonal"><u>Although honestly, combining Comic Sans with more esoteric fonts is pretty fun.</u></p>
+                <p class="diagonal"><u>Although <a href="https://isitchristmas.com">honestly</a>, combining Comic Sans with more esoteric fonts is pretty fun.</u></p>
                 <h2 class="left-head">I still don't like JavaScript.</h2>
                 <h1 class="left-head">And truth be told, Python sucks too.</h1>
             </div>
         </div>
     </div>
+    <p class="center">Now THAT was podracing!</p>
 </html>
