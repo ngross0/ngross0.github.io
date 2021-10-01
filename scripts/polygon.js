@@ -1,11 +1,11 @@
 let sides = prompt("Nameless Genet would like to know how many sides your polygon has.");
 
-document.getElementById("shape").innerHTML = sides + " sided polygon";
+document.getElementById("shape").innerHTML = sides + " sided polygon"; //Get and set a basic shape
 
 function shape() {
-    sides = parseInt(prompt("Nameless Genet would like to know how many sides your polygon has."));
+    sides = parseInt(prompt("Nameless Genet would like to know how many sides your polygon has.")); //Get integer input for sides
 
-    switch (sides) {
+    switch (sides) { //check number of sides and change text accordingly
         case 1:
             document.getElementById("shape").innerHTML = "monogon";
             break;
@@ -51,7 +51,7 @@ function shape() {
         case 15:
             document.getElementById("shape").innerHTML = "pentadecagon";
             break;
-        default:
+        default: //inform user if input is incorrect and ask again
             alert("Your polygon is the wrong size! Please enter a number between 1 and 15.");
             shape();
     }
