@@ -46,6 +46,11 @@ form {
     align-self: center;
 }
 
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .center {
     text-align: center;
 }

@@ -2,7 +2,8 @@ let person = [];
 let salaries = [];
 
 function addSalary() {
-
+    person.push(prompt("Enter the name of the employee."));
+    salaries.push(prompt("Please enter their salary."));
 }
 
 function displayResults() {
