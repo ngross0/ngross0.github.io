@@ -1,6 +1,9 @@
 let person = [];
 let salaries = [];
 
+person = document.getElementsByClassName("name");
+salaries = document.getElementsByClassName("salary");
+
 document.add-salary.focus();
 
 function addSalary() {
