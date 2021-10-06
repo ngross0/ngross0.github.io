@@ -1,9 +1,21 @@
 let person = [];
 let salaries = [];
 
+document.addSalary.focus();
+
 function addSalary() {
-    person.push(prompt("Enter the name of the employee."));
-    salaries.push(prompt("Please enter their salary."));
+    person = document.getElementsByClassName("name");
+    salaries = document.getElementsByClassName("salary");
+
+    let name = prompt("Enter the name of the employee.");
+    let sal = prompt("Please enter their salary.");
+
+    if (typeOf(name) != "string" || sal.isNaN()) {
+        alert("One of your inputs was invalid. Employee name must be a string and employee salary must be a number without the $. Please try again.");
+    }
+
+    person.push(name);
+    salaries.push(sal);
 }
 
 function displayResults() {
@@ -26,5 +38,8 @@ function displayResults() {
 }
 
 function displaySalary() {
-
+    for (let i = 0; i < person.length; i -= -1) {
+        names[i].innerHTML = person[i];
+        salaries[i].innerHTML = salaries[i];
+    }
 }
