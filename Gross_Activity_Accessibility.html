@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="Description" content="Testing website for accessibility.">
+
+    <!-- css -->
+    <link rel="stylesheet" href="styles/Gross_Activity_Accessibility.css">
+    <title>Test For Accessibility</title>
+
+  </head>
+  <body>
+    <header>
+      <h1>Candle Delight</h1>
+    </header>
+    <nav>
+      <a href="index.html">Home</a>
+      || 
+      <a href="itis3135/index.html">ITIS 3135</a>
+      || 
+      <a href="tables.html">Tables</a>
+      || 
+      <a href="form.html">Form</a>
+      || 
+      <a href="website_evaluations.html">Website Evaluations</a>
+      || 
+      <a href="stuff/cRap^page time.htm">Bad Page</a>
+      || 
+      <a href="brand-nameless-genet.html">Brand Page</a>
+      || 
+      <a href="interaction.html">Basic Web Interactions</a>
+      || 
+      <a href="polygon.html">Polygon Checker</a>
+      || 
+      <a href="calculator.html">Calculator</a>
+      || 
+      <a href="arrays.html">Arrays</a>
+      || 
+      <a href="project_rand.html">Design Document</a>
+      || 
+      <a href="resume.html">Resume</a>
+  </nav>
+    <main>
+      <table class="center">
+        <caption>Candles</caption>
+        <thead>
+          <tr>
+            <!-- identify table headers <th> with scope attribute -->
+            <th>TYPE</th>
+            <th>PRODUCT</th>
+            <th>FEATURES</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Birthday Candles</th>
+            <td>Voltives</td>
+            <td>Taper Candles</td>   
+          </td>
+          </tr>
+          <tr>
+              <th><img src="images/Birthday-Candles.jpg" width="400px" height="250px" alt="Birthday Candles"></th>
+              <td><img src="images/voltives.jpeg" width="350px" height="550px" alt="Votives"></td>
+              <td><img src="images/taper-candles.jpg" width="350px" height="550px" alt="Taper/Window Candles"></td>
+            </tr>
+            <tr>
+                <th>Fun colors!</th>
+                <td>Inexpensive!</td>
+                <td>Slender window candles!</td>
+              </tr>
+        </tbody>
+      </table>
+      <!--Add the form here-->
+      <h2>Enter your name and phone number to win a gift!</h2>
+      <form action="#">
+        <label for="name">First name: </label>
+        <input type="text" id="name" name="name" required placeholder="Name" class="inp" size="25"><br>
+        <label for="phone">Phone number: </label>
+        <input type="tel" id="phone" name="phone" required placeholder="(777) 777-7777" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" class="inp" size="25"><br>
+
+        <input type="submit" name="submit" id="submit" value="Submit" class="submit-button">
+      </form>
+    
+      <div class="whitespace"></div>
+      <a href="https://teachaccess.github.io/tutorial/#/12">Click here to find more about accessibility</a>
+      <div class="whitespace"></div>
+
+      <a href="https://dequeuniversity.com/rules/axe/3.2/color-contrast"> Find out if your font
+        color and background color passes WCAG standard!</a>
+    </main>
+
+    <footer>
+
+    </footer>
+  </body>
+  <footer>
+    <nav>
+        <a href="http://webpages.uncc.edu/ngross3/" target="_blank">UNCC Page</a>
+        || 
+        <a href="https://github.com/ngross0">Github</a>
+        || 
+        <a href="https://ngross0.github.io">Github.io Page</a>
+        || 
+        <a href="https://www.linkedin.com/in/noah-gross-432960193/">LinkedIn</a>
+        ||
+        <a href="https://www.freecodecamp.org/appalachian">FreeCodeCamp</a>
+    </nav>
+    <br>
+    <p>Page Built by Appalachian Design</p>
+    <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fngross0.github.io%2Fform.html" class="valid">
+        <img src="images/valid-html-button.png" width="88" height="31" alt="Link to HTML validator">
+    </a>
+    <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fngross0.github.io%2Fform.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" class="valid">
+        <img src="images/valid-css-button.png" width="88" height="31" alt="Link to CSS validator">
+    </a>
+  </footer>
+</html>
