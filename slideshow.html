@@ -2,17 +2,17 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <link href="styles/polygon.css" rel="stylesheet" type="text/css">
+        <link href="styles/slideshow.css" rel="stylesheet" type="text/css">
         <title>Noah Gross, ITIS 3135</title>
         <link rel="shortcut icon" type="image/png" href="images/uncc-logo.png">
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script src="scripts/slideshow.js"></script>
     </head>
     <body>
         <header>
-            <h1>Noah Gross, Polygons</h1>
+            <h1>Noah Gross, jQuery Slideshow</h1>
         </header>
         <nav>
-            <a href="index.html">Home</a>
-             || 
             <a href="itis3135/index.html">ITIS 3135</a>
              || 
             <a href="tables.html">Tables</a>
@@ -27,24 +27,38 @@
              || 
             <a href="interaction.html">Basic Web Interactions</a>
              || 
+            <a href="polygon.html">Polgyon Checker</a>
+             || 
             <a href="calculator.html">Calculator</a>
              || 
             <a href="arrays.html">Arrays</a>
              || 
             <a href="project_rand.html">Design Document</a>
              || 
-            <a href="slideshow.html">jQuery Slideshow</a>
-             || 
             <a href="resume.html">Resume</a>
         </nav>
-        <h2>Shapes!</h2>
-        <p>The polygon you have entered is a <span id="shape">{shape}</span>! If you would like to enter another number, press the button below.</p>
-        <form>
-            <button type="button" onclick="shape()">Enter Sides</button>
-        </form>
-        <br>
+        <main>
+            <h2>Slideshow of my Favorite Jedi</h2>
+            <div id="slideshow">
+                <h3 class="jediName" id="jediName">Obi-Wan Kenobi</h3>
+                <img src="images/jedi/ObiWan.jpg" alt="Obi-Wan Kenobi" class="active" id="ObiWan">
+                <img src="images/jedi/QuiGon.jpg" alt="Qui-Gon Jinn" class="inactive" id="QuiGon">
+                <img src="images/jedi/JediBob.png" alt="Jedi Bob" class="inactive" id="JediBob">
+                <img src="images/jedi/AaylaSecura.jpg" alt="Aayla Secura" class="inactive" id="AaylaSecura">
+                <img src="images/jedi/BastilaShan.jpg" alt="Bastila Shan" class="inactive" id="BastilaShan">
+                <img src="images/jedi/JainaSoloFel.jpg" alt="Jaina Solo Fel" class="inactive" id="JainaSoloFel">
+                <img src="images/jedi/Yoda.jpg" alt="Yoda" class="inactive" id="Yoda">
+                <img src="images/jedi/BenSkywalker.jpg" alt="Ben Skywalker" class="inactive" id="BenSkywalker">
+                <img src="images/jedi/LukeSkywalker.png" alt="Luke Skywalker" class="inactive" id="LukeSkywalker">
+                <img src="images/jedi/AnakinSkywalker.png" alt="Anakin Skywalker" class="inactive" id="AnakinSkywalker">
+                <img src="images/jedi/CadeSkywalker.jpg" alt="Cade Skywalker" class="inactive" id="CadeSkywalker">
+                <img src="images/jedi/KolSkywalker.jpg" alt="Kol Skywalker" class="inactive" id="KolSkywalker">
+            </div><br>
+            <div class="button">
+                <button type="button" onclick="slide()">Next Image</button>
+            </div><br>
+        </main>
         <footer>
-            <script src="scripts/polygon.js"></script> <!-- I don't know enough about JavaScript to know why this only works when placed way down here, but that's the only way I can get it to run so.... oh well -->
             <nav>
                 <a href="http://webpages.uncc.edu/ngross3/" target="_blank">UNCC Page</a>
                  || 
@@ -58,7 +72,7 @@
             </nav>
             <br>
             <p>Page Built by Appalachian Design</p>
-            <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fngross0.github.io%2Fform.html" class="valid">
+            <a href="https://validator.w3.org/nu/#file" class="valid">
                 <img src="images/valid-html-button.png" width="88" height="31" alt="Link to HTML validator">
             </a>
             <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fngross0.github.io%2Fform.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" class="valid">
