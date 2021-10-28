@@ -1,3 +1,4 @@
+/*Common*/
 body {
 	font-family: Arial;
 	color: rgb(160, 160, 160);
@@ -23,7 +24,25 @@ nav {
     color: rgb(160, 160, 160);
 }
 
-a {
-	text-decoration: none;
-	color: rgb(160, 160, 160);
+a, a:hover, a:visited, a:active {
+    color: inherit;
+    text-decoration: underline;
 }
+
+/*3135 Home*/
+p {
+	text-align: center;
+}
+
+.js-image {
+	width: 250px;
+	height: 175px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	justify-self: center;
+	align-self: center;
+}
+
+/*3135 Contract*/
