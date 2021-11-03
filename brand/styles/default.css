@@ -1,0 +1,53 @@
+html {
+    background-color: #764248;
+    font-family: Arial;
+}
+
+header {
+    background-color: #DFE2CF;
+    display: grid;
+    grid-template-columns: 2;
+    grid-column-gap: 5px;
+}
+
+main {
+    background-color: #DDA3B2;
+}
+
+a, a:hover, a:visited, a:active {
+    color: inherit;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+footer {
+    background-color: #E3C5BB;
+    text-align: center;
+}
+
+button {
+    margin: auto;
+}
+
+.nav-div {
+    font-size: 25px;
+}
+
+.center {
+    text-align: center;
+    margin-left: 145px;
+    margin-right: 145px;
+}
+
+.one {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.two {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    float: right;
+    justify-content: right;
+    margin-left: auto;
+}
