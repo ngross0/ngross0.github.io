@@ -42,16 +42,32 @@ p {
 .one {
     grid-column-start: 1;
     grid-column-end: 2;
+    border: 2.5px dashed #cfcfcf;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
 }
 
 .two {
     grid-column-start: 2;
     grid-column-end: 3;
+    border: 2.5px dashed #cfcfcf;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
 }
 
 .three {
     grid-column-start: 3;
     grid-column-end: 4;
+    border: 2.5px dashed #cfcfcf;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.left {
+    text-align: left;
 }
 
 /*Home Page*/
