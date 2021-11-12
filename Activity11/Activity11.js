@@ -1,7 +1,8 @@
 //jQuery call to the accordion() method.
 $(document).ready(function() {
-    $("#accordion").accordion({
-        active: 2,
-        collapsible: true
+    $(".item").accordion({
+        active: false,
+        collapsible: true,
+        heightStyle: "content"
     });
 });
