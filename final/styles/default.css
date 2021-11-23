@@ -70,4 +70,10 @@ p {
     text-align: left;
 }
 
-/*Home Page*/
+/*Maps and Modes*/
+.content {
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+}
