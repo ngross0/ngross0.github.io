@@ -12,9 +12,6 @@ $(document).ready(function(){
     $.ajax({
         type: "get",
         url: "facultyList.json",
-        //beforeSend: $("#faculty").html("Loading..."),
-        //timeout: 5000,
-        //error: alert("Error: " + xhr.status + " - " + error),
         dataType: "json",
         success: insertData(data)
     })
